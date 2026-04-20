@@ -1,34 +1,22 @@
 # ALPR — Reconnaissance automatique de plaques d'immatriculation
 
-Projet académique de Deep Learning : système de reconnaissance automatique de plaques d'immatriculation à deux étapes, basé sur un détecteur CNN pour localiser la plaque puis un OCR appliqué sur la plaque extraite.
+Projet académique de Deep Learning pour détecter une plaque d'immatriculation dans une image, extraire la plaque, lire automatiquement son texte et évaluer les performances sur un sous-ensemble réel annoté manuellement.
 
-Le notebook principal du projet est :
-
+Notebook principal :
 - `alpr_notebook_ameliore.ipynb`
 
-## Objectif
-
-Le projet vise à :
-
-1. détecter une plaque d'immatriculation dans une image automobile ;
-2. extraire la plaque à partir de la boîte détectée ;
-3. lire automatiquement le texte de la plaque ;
-4. évaluer les performances sur un sous-ensemble réel annoté manuellement.
-
-## Pipeline du projet
-
-Le pipeline final est le suivant :
+## Pipeline
 
 ```text
 Image voiture
    -> Détection plaque : YOLOv8-xs (keras-cv)
-   -> Bounding box normalisée
+   -> Bounding box
    -> Extraction / crop de la plaque
-   -> Génération de plusieurs variantes de prétraitement
+   -> Génération de plusieurs prétraitements
       (equalizeHist, CLAHE, blur, sharpen, Otsu, adaptive threshold, deskew, rotations légères)
    -> OCR sur plaque entière (EasyOCR)
    -> Sélection de la lecture la plus plausible
-   -> Comparaison avec la vérité terrain (ground_truth_filled.csv)
+   -> Évaluation sur ground_truth_filled.csv
 ```
 
 ## Technologies utilisées
@@ -44,14 +32,7 @@ Image voiture
 - Pillow
 - scikit-learn
 
-## Dataset
-
-Le projet utilise :
-
-- un dataset d'images de voitures annotées en Pascal VOC pour la détection de plaques ;
-- un sous-ensemble de plaques extraites et annotées manuellement pour l'évaluation réelle de la lecture.
-
-Structure attendue :
+## Structure attendue
 
 ```text
 reco-cnn/
@@ -68,8 +49,6 @@ reco-cnn/
 ```
 
 ## Installation de l'environnement
-
-Le projet a été préparé avec `uv`.
 
 ### 1. Installer uv
 
@@ -111,43 +90,13 @@ python -m ipykernel install --user --name alpr-cnn --display-name "Python (alpr-
 
 ## Instructions d'exécution
 
-### Étape 1 — Placer le projet dans le bon dossier
-
-Ouvrir le notebook depuis le dossier racine du projet `reco-cnn`, afin que :
-
-```python
-PROJECT_DIR = Path.cwd()
-```
-
-pointe correctement vers le projet.
-
-### Étape 2 — Vérifier les données
-
-Les dossiers suivants doivent exister :
-
-```text
-data/raw/images/
-data/raw/annotations/
-```
-
-Les annotations XML doivent correspondre aux images.
-
-### Étape 3 — Vérifier le fichier d'évaluation réelle
-
-Le fichier suivant doit être présent si vous voulez calculer les métriques réelles de lecture :
-
-```text
-extracted_plates/ground_truth_filled.csv
-```
-
-Ce fichier doit contenir au minimum les colonnes :
-
-- `id`
-- `crop_path_local`
-- `ground_truth_text`
-- `use_for_eval`
-
-### Étape 4 — Lancer Jupyter
+1. Ouvrir le projet depuis le dossier racine `reco-cnn`.
+2. Vérifier la présence des dossiers :
+   - `data/raw/images/`
+   - `data/raw/annotations/`
+3. Vérifier la présence du fichier :
+   - `extracted_plates/ground_truth_filled.csv`
+4. Lancer Jupyter :
 
 ```bash
 jupyter lab
@@ -159,20 +108,9 @@ ou
 jupyter notebook
 ```
 
-### Étape 5 — Ouvrir le notebook final
-
-Ouvrir :
-
-```text
-alpr_notebook_ameliore.ipynb
-```
-
-### Étape 6 — Exécuter le notebook
-
-Dans Jupyter :
-
-- sélectionner le kernel `Python (alpr-cnn)`
-- exécuter `Restart & Run All`
+5. Ouvrir `alpr_notebook_ameliore.ipynb`
+6. Sélectionner le kernel `Python (alpr-cnn)`
+7. Exécuter `Restart & Run All`
 
 ## Comportement du notebook
 
@@ -192,8 +130,6 @@ Le notebook :
 
 ## Fichiers générés
 
-Pendant l'exécution, le projet peut générer :
-
 ```text
 models/detector_final.weights.h5
 reports/detector_history.csv
@@ -207,8 +143,6 @@ extracted_plates/plate_crops/
 
 ## Résultats à observer
 
-Les principales métriques affichées sont :
-
 ### Détection
 - Mean IoU
 - Median IoU
@@ -220,36 +154,6 @@ Les principales métriques affichées sont :
 - `exact_match_rate`
 - `mean_char_accuracy`
 - `empty_prediction_rate`
-
-## Fichiers importants à conserver
-
-À conserver pour le rendu final :
-
-- `alpr_notebook_ameliore.ipynb`
-- `README.md`
-- `models/detector_final.weights.h5`
-- `reports/final_results.json`
-- `reports/real_plate_eval.json`
-- `reports/real_eval_details.csv`
-- `extracted_plates/ground_truth_filled.csv`
-
-## Fichiers pouvant être supprimés
-
-Vous pouvez supprimer les anciens fichiers intermédiaires ou de test si vous ne les utilisez plus, par exemple :
-
-- anciens notebooks d'essai non utilisés ;
-- anciens templates CSV non utilisés ;
-- fichiers de debug temporaires ;
-- anciennes versions de README ;
-- anciens manifests ou prédictions obsolètes.
-
-À ne pas supprimer :
-
-- `data/raw/images/`
-- `data/raw/annotations/`
-- le notebook final
-- les poids du détecteur
-- le CSV de vérité terrain final
 
 ## Remarques
 
