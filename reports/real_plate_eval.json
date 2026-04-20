@@ -1,0 +1,6 @@
+{
+  "n_eval": 60,
+  "exact_match_rate": 0.18333333333333332,
+  "mean_char_accuracy": 0.36824404761904767,
+  "empty_prediction_rate": 0.06666666666666667
+}

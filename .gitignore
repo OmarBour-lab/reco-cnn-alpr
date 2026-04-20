@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+backup_old_versions/
+models/*.keras
+models/*.h5
+!models/detector_final.weights.h5

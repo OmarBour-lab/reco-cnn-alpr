@@ -1,0 +1,61 @@
+id,crop_path_local,ground_truth_text,use_for_eval,predicted_text,exact_match,char_accuracy,is_empty_prediction
+Cars114,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars114_plate.png,AP 29 BP 585,1,CCGRAPHTCE,0,0.1111111111111111,0
+Cars131,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars131_plate.png,AP 29 BP 585,1,CCGRAPHTCE,0,0.1111111111111111,0
+Cars50,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars50_plate.png,PUI8 BES,1,PUI8 BES,1,1.0,0
+Cars312,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars312_plate.png,PUI8 BES,1,PUI8 BES,1,1.0,0
+Cars4,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars4_plate.png,PUI8 BES,1,PUI8 BES,1,1.0,0
+Cars211,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars211_plate.png,F 65022,1,F 650221,0,1.0,0
+Cars10,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars10_plate.png,TN 37 C5 2765,1,TN 37 C5,0,0.6,0
+Cars247,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars247_plate.png,TN 37 C5 2765,1,TN 37 CS5,0,0.5,0
+Cars175,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars175_plate.png,DL 1N 4268,1,JIN2420L1,0,0.25,0
+Cars6,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars6_plate.png,802.11N,1,0VIRGNIA,0,0.16666666666666666,0
+Cars76,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars76_plate.png,MH-31 EA RSS,1,MH-31,0,0.4444444444444444,0
+Cars44,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars44_plate.png,DL3CBF3907 / DL2C AG0786,1,DLZC AG 0786,0,0.15,0
+Cars176,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars176_plate.png,EV09 FTW,1,VEUQ9ETL,0,0.0,0
+Cars385,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars385_plate.png,EV09 FTW,1,OR4CBOIE,0,0.0,0
+Cars33,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars33_plate.png,0X65 AWD,1,OX6S,0,0.2857142857142857,0
+Cars279,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars279_plate.png,MMN 306,1,S3OOL,0,0.0,0
+Cars128,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars128_plate.png,0X65 AWD,1,OX6S,0,0.2857142857142857,0
+Cars61,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars61_plate.png,MMN 306,1,GT0114,0,0.0,0
+Cars126,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars126_plate.png,KA G5MG1909,1,65HG19097,0,0.1,0
+Cars399,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars399_plate.png,0X65 AWD,1,OX65,0,0.42857142857142855,0
+Cars158,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars158_plate.png,695299,1,COSTA RICA,0,0.0,0
+Cars97,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars97_plate.png,KA G5MG1909,1,05HG19027,0,0.0,0
+,,,1,,1,0.0,1
+,,,1,,1,0.0,1
+Cars418,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars418_plate.png,0X65 AWD,1,OX6S,0,0.2857142857142857,0
+Cars309,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars309_plate.png,EAB 0001,1,VE4BO00,0,0.14285714285714285,0
+Cars315,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars315_plate.png,J98257,1,J40257J1,0,0.6666666666666666,0
+Cars398,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars398_plate.png,MMN 306,1,0910YO7A,0,0.0,0
+Cars348,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars348_plate.png,EAB 0001,1,F4B0001,0,0.7142857142857143,0
+,,,1,,1,0.0,1
+Cars351,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars351_plate.png,CB7 R605,1,CB7-R6U5,0,0.8571428571428571,0
+Cars261,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars261_plate.png,TS08ER1643,1,TSO8ER1643,0,0.9,0
+Cars99,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars99_plate.png,"Cars99,KA-09 MA 2662",1,KA-09,0,0.0625,0
+Cars284,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars284_plate.png,KA-09-MA 2662,1,KA-09,0,0.4,0
+Cars180,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars180_plate.png,MPEACHW,1,WASHINGTON,0,0.0,0
+Cars45,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars45_plate.png,IMGROOT,1,,0,0.0,1
+Cars199,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars199_plate.png,MH01AE8017,1,MHHO HE80IZ,0,0.5,0
+Cars424,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars424_plate.png,KA-09-MA 2662,1,KA-03-MG 2784,0,0.5,0
+Cars210,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars210_plate.png,MH01AE8017,1,CHO HEBO1J,0,0.1,0
+Cars244,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars244_plate.png,21-801-27,1,21-801-2L,0,0.8571428571428571,0
+Cars154,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars154_plate.png,KA-09-MA 2662,1,K409,0,0.3,0
+Cars113,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars113_plate.png,MPEACHW,1,WASHINGTON,0,0.0,0
+Cars431,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars431_plate.png,KL BOOS,1,305S,0,0.0,0
+Cars361,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars361_plate.png,MPEACHW,1,WASHINGTON,0,0.0,0
+Cars389,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars389_plate.png,AB 44 887,1,AB 44 887,1,1.0,0
+Cars219,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars219_plate.png,KA-03-MG-2784,1,KA-03-MG - 2784,1,1.0,0
+Cars56,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars56_plate.png,KL BOOS,1,0323S,0,0.0,0
+Cars98,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars98_plate.png,YWORRY,1,MM5 BO,0,0.0,0
+Cars410,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars410_plate.png,EWW POOP,1,VIRGINIA,0,0.0,0
+Cars243,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars243_plate.png,KA-03-MG-2784,1,KA 03 MG - 2784,1,1.0,0
+Cars60,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars60_plate.png,OS 802-HN,1,OS 802 HN,1,1.0,0
+Cars367,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars367_plate.png,GOOGLE,1,GOOG2E,0,0.8333333333333334,0
+Cars386,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars386_plate.png,AB 44 887,1,AB 44887,1,1.0,0
+Cars65,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars65_plate.png,OR INNIE,1,0R INNIE,0,0.8571428571428571,0
+Cars344,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars344_plate.png,GOOGLE,1,G00GLE,0,0.6666666666666666,0
+Cars356,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars356_plate.png,B SMART2,1,BB SMART2I,0,0.14285714285714285,0
+Cars392,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars392_plate.png,DZV G49,1,SHORIMAC 6,0,0.0,0
+Cars79,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars79_plate.png,4GETOTL,1,L4 G QLU,0,0.0,0
+Cars282,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars282_plate.png,68-611-36,1,TT50X,0,0.0,0
+Cars307,C:\Users\DELL\Documents\4IIR IA COURS\deep learning\reco-cnn\extracted_plates\plate_crops/Cars307_plate.png,M-90 60 90-K,1,M9O 6090 KJ,0,0.875,0

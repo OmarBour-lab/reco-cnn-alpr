@@ -1,0 +1,19 @@
+{
+  "detector": {
+    "mean_iou": 0.42271775007247925,
+    "median_iou": 0.5144262313842773,
+    "iou_gt_0_5": 0.5230769230769231,
+    "iou_gt_0_7": 0.13846153846153847,
+    "no_detection": 0
+  },
+  "real_plate_predictions": {
+    "n_filtered_plates": 206,
+    "empty_prediction_rate": 0.0
+  },
+  "real_eval": {
+    "n_eval": 60,
+    "exact_match_rate": 0.18333333333333332,
+    "mean_char_accuracy": 0.36824404761904767,
+    "empty_prediction_rate": 0.06666666666666667
+  }
+}
